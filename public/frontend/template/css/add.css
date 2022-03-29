@@ -1,0 +1,709 @@
+
+.carousel-inner>.carousel-item>a>img {
+    width: 100%;
+    height: 420px;
+}
+.carousel-inner {
+    width: 100%;
+    height: 420px;
+}
+
+.banner_inner{
+    margin-top: 100px; 
+}
+
+.banner-ruko img{
+   width: 100%;
+   
+    
+}
+.title-ruko{
+    font-weight: bolder;
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+.card {
+    border: none;
+    border-radius: 0px;
+    overflow: auto;
+    
+}
+.card:hover{
+    box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.1);
+   
+}
+
+.single_course .course_content{
+    height: 125px;
+    
+}
+.single_course .course_head img {
+    width: 100%;
+    
+    
+}
+.main_title h2{
+    font-weight: 500;
+    line-height: 42px;
+}
+.halaman-awal .main_title .quote {
+    font-size:43px;
+}
+
+.main_title i{
+    font-weight: 500;
+}
+
+
+.meta-text {
+    height: 150px
+}
+.single_course .inginkorea img {
+    width: 75%;
+}
+.uji img{
+    width: 100%;
+    height: 600px;
+    
+}
+ .section-title{
+     margin-bottom: 50px;
+ }
+ .mitra img{
+     width: 75%;
+ }
+ .mitra-btn {
+   margin-left: 50px;
+ }
+
+ .margin-top{
+     margin: 10px;
+ }
+ .mitra-desc{
+     text-align: justify;
+     font-size: 20px;
+     line-height: 42px;
+ }
+ 
+  .event img{
+      width: 100%;
+      height: 300px;
+  }
+  
+  .event_thumb .video{
+      width:560px;
+      height:315px;
+  }
+  .event .course_content .jadwal{
+      font-size: 15px;
+  }
+  
+  .testi_item{
+      height: 300px;
+      text-align: left;
+  }
+  .testi_item img{
+      width: 100%;
+      height: 150px;
+  }
+  .testi_item .testi_text {
+      text-align: justify;
+  }
+  .trainer_area .owl-carousel .owl-dots {
+      display: block !important;
+      text-align: center;
+  }
+
+  .trainer_area .owl-carousel .owl-dots .owl-dot {
+      height: 10px;
+      width: 10px;
+      background: #d8d8d8;
+      border-radius: 17px;
+      display: inline-block;
+      margin-right: 10px;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+  }
+
+  .trainer_area .owl-carousel .owl-dots .owl-dot.active {
+      height: 12px;
+      width: 12px;
+      background: #fdc632;
+  }
+  .tengah{
+      position: center;
+      list-style-position: inside;
+  }
+
+  @media (max-width: 991px) {
+      .trainer_area .owl-carousel .owl-dots {
+          display: none !important;
+      }
+  }
+.single_course .harga {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 2;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fdc632;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.features {
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+.features .nav-tabs {
+    border: 0;
+}
+
+.features .nav-link {
+    border: 0;
+    padding: 20px;
+    transition: 0.3s;
+    color: #364146;
+    transition: 0.3s ease-in-out;
+    border-radius: 0;
+    border-left: 4px solid #fafbfb;
+}
+
+.features .nav-link h4 {
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    color: #576971;
+}
+
+.features .nav-link p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.features .nav-link:hover {
+    background: #fafbfb;
+}
+
+.features .nav-link:hover h4 {
+    color: #364146;
+}
+
+.features .nav-link.active {
+    border-radius: 0;
+    border: 0;
+    border-left: 4px solid #009cea;
+    background: #fafbfb;
+}
+
+.features .nav-link.active h4 {
+    color: #002347;
+}
+
+.features .tab-pane.active {
+    -webkit-animation: slide-down 0.5s ease-out;
+    animation: slide-down 0.5s ease-out;
+}
+
+.features .tab-content {
+    text-align: right;
+}
+
+@-webkit-keyframes slide-down {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+    /* footer */
+    
+}
+.footer-area .single-footer-widget ul li{
+    margin-bottom: 10px;
+}
+.produk .primary-btn2 {
+    padding: 0px 10px;
+}
+.produk-gaul{
+    background-image: url('../img/element/1.png');
+}
+
+/* headline kelas bahasa indonesia */
+#hero .headline-kursus-bi h1 {
+    font-size: 62px;
+    line-height: 70px;
+}
+/* talent-scouting */
+/* talent-scouting */
+.main_title .talent-content {
+    font-size: 20px;
+}
+.talent-beasiswa h1{
+font-size: 30px;
+}
+/* uji kemampuan */
+.poin{
+    margin-top: 70px;
+    margin-left: 50px;
+    text-align: center;
+}
+ .poin h4 {
+     font-size: 30px;
+ }
+
+ .poin p {
+     font-size: 25px;
+ }
+ /* ingin korea */
+.ingin-korea-hero-img{
+    margin-bottom: 170px;
+    
+    
+}
+.ingin-korea-hero-img .img {
+    width:350px;
+
+}
+.ingin-korea-header-text{
+    margin-bottom: 130px;
+}
+/* layanan interpreter */
+.interpreter-header-img{
+    margin-bottom: 100px;
+}
+.interpreter-header-text{
+    margin-bottom: 120px;
+}
+/* translator */
+.translator-header-img{
+    margin-bottom: 100px;
+
+}
+/* konsultasi */
+.konsultasi-header-img{
+    margin-bottom: 150px;
+}
+.konsultasi-header-text{
+    margin-bottom: 70px;
+}
+/* uji kemampuan */
+.ujikemampuan-header-img .img{
+    width: 500px;
+}
+/* kursus korea */
+.kursuskorea-header-img{
+    margin-bottom: 100px;
+}
+.kursuskorea-header-text{
+    margin-bottom: 100px;
+}
+/* kursus indonesia */
+.kursusbi-header-img {
+    margin-bottom: 150px;
+}
+/* talent scouting */
+.kelastalent-header-img{
+    margin-bottom: 150px;
+}
+
+
+@media(max-width:767px){
+    .carousel-inner>.carousel-item>a>img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        height: 150px;
+        
+    }
+    
+    .banner-ruko img {
+        width: 100%;
+        
+    }
+    
+    .single_course .course_head img {
+        width: 100%;
+        
+    }
+    
+    
+    .produk .primary-btn2{
+        padding: 0px 10px;
+    }
+     .uji img{
+        width: 100%;
+        height: 400px;
+         
+    }
+    .exam img{
+        width: 100%;
+    }
+    .primary-btn2{
+        padding: 0px 10px;
+    }
+    
+    .section-title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .halaman-awal .main_title .quote{
+        font-size: 22px;
+    }
+    .halaman-awal .main_title h2{
+        font-size:16px;
+        text-align: center;
+    }
+    .mitra-desc{
+        margin-top: 10px;
+    }
+    .mitra img {
+        width: 100%;
+        height: 400px;
+    }
+    .event_thumb .video {
+        width: 360px;
+        height: 200px;
+    }
+    .single_course .course_head img {
+        width: 100%;
+        height:420px;
+    }
+    .testi_item {
+        height:550px;
+       
+    }
+    .testi_item img {
+        width: 75%;
+        height: 300px;
+    }
+    .testi_item .testi_text {
+        text-align: justify;
+    }
+    .main_title h2 {
+    font-weight: 600;
+    line-height: 25px;
+    }
+    .main_title h3{
+        font-size: 18px;
+    }
+    .product-title a{
+        font-size: 20px;
+    }
+    .features  .text h3 {
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
+       
+    }
+    /* kelas korea */
+    .sub-title h2{
+        font-size: 22px;
+        text-align: justify;
+    }
+    /* headline kelas bahasa indonesia */
+  #hero .headline-kursus-bi h1{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  /* talent-scouting */
+  .main_title .talent-content {
+      font-size: 15px;
+  }
+  .talent-beasiswa h1{
+      font-size: 20px;
+  }
+  .talent-beasiswa h4{
+      font-size: 16px;
+  }
+  /* uji kemampuan */
+  .poin h4{
+      font-size: 20px;
+  }
+  .poin p{
+      font-size: 15px;
+  }
+  
+}
+@media (min-width:767px) and (max-width:991px){
+
+.carousel-inner {
+    width: 100%;
+    height: 250px;
+}
+    .carousel-inner>.carousel-item {
+        width: 100%;
+        height: 250px;
+    }
+
+    .carousel-inner>.carousel-item>a>img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .banner_inner {
+        height: max-content;
+        
+        
+    }
+
+    
+
+    
+
+    .link a{
+        font-size: 10px;    
+    }
+   .link .primary-btn2{
+       padding: 0px 20px;
+   }
+   /* halaman uji kemampuan */
+  .exam img{
+      width: 50%;
+      
+  }
+  .uji img{
+      width: 100%;
+      height: 500px;
+      
+  }
+  /* halaman kursus korea */
+   .single_course .course_head img {
+      width: 500px;
+   }
+   .single_course .course_content a{
+       font-size: 15px;
+   }
+    .section-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .uni h4{
+        font-size: 20px;
+        text-align: left;
+    }
+    .single_course .mitra img{
+        
+        height:300px
+    }
+    .mitra-desc{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .mitra-btn {
+        margin-left: 225px;
+    }
+    .mitra img {
+        width: 50%;
+       
+    }
+    
+     .event_thumb .video {
+         width: 360px;
+         height: 200px;
+         text-align: center;
+     }
+     .testi_item {
+         height: 450px;
+         
+     }
+
+     .testi_item img {
+         width: 100%;
+         height: 100px;
+     }
+     .testi_item .testi_text{
+         text-align: justify;
+     }
+    .btn-product .primary-btn2{
+        width:80px;
+        padding: 0px 0px;
+    }
+    .btn-product a {
+        font-size: 10px;
+        text-align: center;
+    }
+
+}
+
+/* Headline KELAS */
+#hero {
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    margin-top: 70px;
+    padding: 60px 0;
+}
+
+#hero h1 {
+    margin: 0 0 20px 0;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #364146;
+}
+
+#hero h2 {
+    color: #576971;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+#hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #fff;
+    background: #009cea;
+}
+
+#hero .btn-get-started:hover {
+    background: #008bd1;
+}
+
+#hero .hero-img {
+    text-align: center;
+}
+
+#hero .hero-img img {
+    width: 70%;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+    #hero .headline-title{
+        font-size: 42px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    #hero h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    #hero h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width:767px){
+    #hero h1{
+        font-size:25px;
+        line-height: 40px;
+        margin-top: -50px;
+        z-index: 100;
+    }
+    #hero .headline-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+.service {
+    padding: 30px;
+    background: #fff591;
+    border: 1px solid #eee;
+    border-top: 2px solid #7ac6c4;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.service:hover,
+.service:focus {
+    -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    border: 1px solid transparent;
+    border-top: 2px solid #bd1220;
+    top: -2px;
+}
+
+.service *:last-child {
+    margin-bottom: 0;
+}
+
+.service h3 {
+    font-size: 1rem;
+    color: #000;
+}
+
+.service p {
+    color: #999999;
+    font-size: .85rem;
+}
+
+.readmore {
+    position: relative;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: .1rem;
+    font-weight: 900;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.readmore:hover {
+    padding-right: 30px;
+}
+
+.readmore:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* halaman kelas uji kemampuan */
+@media (max-width:767px){
+.text-akhir h3{
+font-size: 20px;
+}
+.text-akhir h4{
+    font-size: 15px;
+}
+}
+
+
+
+
